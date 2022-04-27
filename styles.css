@@ -1,0 +1,6 @@
+body {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: 1fr 6fr;
+    min-height: 100vh;
+}
