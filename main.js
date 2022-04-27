@@ -1,3 +1,8 @@
 new fullpage('#fullpage', {
-    autoScrolling: true
+    autoScrolling: true,
+    scrollHorizontally: true,
+    navigation: true,
+    slidesNavigation: true,
+    controlArrows: false,
+    slidesNavPosition: 'bottom'
 })

@@ -4,3 +4,12 @@
     grid-template-rows: 1fr 6fr;
     min-height: 100vh;
 } */
+
+body {
+    background-color: black;
+    color: white; 
+}
+
+span {
+    background: white !important;
+}
