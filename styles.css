@@ -126,13 +126,50 @@ body {
 
 .section2 {
     display: grid;
-    justify-content: center;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
 
-.section2 .projects {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-column-gap: 250px;
+.section2 .title {
+    grid-column: 2;
 }
+
+.section2 .project1 {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.section2 .project2 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.section2 .project3 {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+/* .section3 {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section3 h1 {
+    grid-column: 2;
+}
+
+/* .section3 .LinkedIn {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.section3 .Email {
+    grid-column: 2;
+    grid-row: 2
+}
+
+.section3 .Github {
+    grid-column: 3;
+    grid-row: 2;
+} */ */
